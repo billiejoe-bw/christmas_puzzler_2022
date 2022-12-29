@@ -9,7 +9,7 @@ This repository contains a solution for the [Brandwatch](https://www.brandwatch.
 
 Charity is a functional language "completely grounded in category theory" (which sounds exciting already :D). But what made me curious about the language is that it's designed to be _Turing-incomplete but useful in practice_.
 
-The lack of [Turing-completeness](https://en.wikipedia.org/wiki/Turing_completeness) means that there exist algorithms that you cannot implement in Charity. But in practice you can implement a lot of things (including a Wordle solver, happily for present purposes!). This design choice - "in theory you can't do everything, but in practice you can do quite a lot" is
+The lack of [Turing-completeness](https://en.wikipedia.org/wiki/Turing_completeness) means that there exist algorithms that you cannot implement in Charity. But in practice you can implement a lot of things (including a Wordle solver, happily for present purposes!). This design choice - "in theory you can't do everything, but in practice you can do quite a lot" - is
 sort of the opposite of the [Turing Tarpit](https://en.wikipedia.org/wiki/Turing_tarpit) languages, which can be summarised as "in theory you can do everything, but in practice you can do very little".
 
 
@@ -70,7 +70,7 @@ In general, programming in Charity is perfectly pleasant once you figure out wha
 
 - Research on Charity seems to have stopped years ago, the documentation is incomplete and building the interpreter from source isn't straightforward. Which either adds to the fun or subtracts from it, depending on your viewpoint.
 
-- Some subterfuge was needed in the definition of the `play_full` function. It's kind of the same trick as explained [here](http s://en.wikipedia.org/wiki/Total_functional_programming) with the quicksort algorithm.
+- Some subterfuge was needed in the definition of the `play_full` function. It's kind of the same trick as explained [here](https://en.wikipedia.org/wiki/Total_functional_programming) with the quicksort algorithm.
 
 - While doing this puzzle I learned about the concept of [paramorphisms](https://en.wikipedia.org/wiki/Paramorphism), a form of recursion which "eats its argument and keeps it too". Being able to write these, instead of only catamorphisms, would've been handy when doing the puzzle, but it seems you can't do that.
 
