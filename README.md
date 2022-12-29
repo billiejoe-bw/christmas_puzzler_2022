@@ -1,7 +1,7 @@
 # Christmas puzzler 2022: writing a Wordle solver
 
 
-This repository contains a solution for the [Brandwatch](https://www.brandwatch.com/) holider puzzler for Christmas 2022. The problem is to write a solver for the [Wordle](https://www.nytimes.com/games/wordle/index.html) game. Wordle has been kinda discussed to death, so to make things more interesting, I used the experimental programming language [Charity](https://github.com/mietek/charity-lang). I'd been curious about that language for years, so I took the chance to try it out.
+This repository contains a solution for the [Brandwatch](https://www.brandwatch.com/) holiday puzzler for Christmas 2022. The problem is to write a solver for the [Wordle](https://www.nytimes.com/games/wordle/index.html) game. Wordle has been kinda discussed to death, so to make things more interesting, I used the experimental programming language [Charity](https://github.com/mietek/charity-lang). I'd been curious about that language for years, so I took the chance to try it out.
 
 
 ### What's interesting about the Charity language?
